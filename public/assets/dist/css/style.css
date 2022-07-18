@@ -1,0 +1,31 @@
+h5 {
+    font-size: 20px;
+}
+
+.card-custom {
+    box-shadow: 5px 5px 10px 1px #828282;
+}
+
+.card-custom .card .card-image {
+    padding: 22px;
+}
+
+.card-custom .card .card-image img {
+    margin-bottom: 18px;
+}
+
+@media screen and (max-width: 991px) {
+    .container .card-stacked .card-description {
+        display: none;
+    }
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
